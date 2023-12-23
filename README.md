@@ -13,6 +13,10 @@ Required software:
 # install instructions
 Clone this repository
 
+```
+  git clone https://github.com/eltonokada/library_manager.git
+```
+
 Install dependencies
 ```
   gem install bundler
