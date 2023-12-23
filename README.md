@@ -1,9 +1,8 @@
 # Library Manager
 
-This application uses
-application up and running.
+This application uses Ruby on Rails 7.1.2 and React.js
 
-Dependencies:
+Required software:
 
 * Ruby 3.1.2 +
 
@@ -13,9 +12,24 @@ Dependencies:
 
 # install instructions
 Clone this repository
-run gem install bundler
-bundle install
 
-# run application
-/bin/dev
+Install dependencies
+```
+  gem install bundler
+  bundle install
+```
+
+Create database and initial data
+```
+  rake db:create
+  rake db:migrate
+  rake db:seed
+```
+Start application:
+
+```
+  ./bin/dev
+```
+Go to 127.0.0.1:3000
+
 
