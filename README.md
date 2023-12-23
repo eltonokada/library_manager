@@ -1,25 +1,21 @@
-# README
+# Library Manager
 
-This README would normally document whatever steps are necessary to get the
+This application uses
 application up and running.
 
-Things you may want to cover:
+Dependencies:
 
-* Ruby version
+* Ruby 3.1.2 +
 
-* System dependencies
+* Node.js 20.10.0
 
-* Configuration
+* Sqlite
 
-* Database creation
+# install instructions
+Clone this repository
+run gem install bundler
+bundle install
 
-* Database initialization
+# run application
+/bin/dev
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# library_manager
