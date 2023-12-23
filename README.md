@@ -36,6 +36,17 @@ Start application:
 ```
 Go to 127.0.0.1:3000
 
+In this initial data we have 3 users, 1 librarian and 2 members
+
+user: librarian@example.com
+password: password
+
+user: member1@example.com
+password: password
+
+user: member2@example.com
+password: password
+
 # api usage
 
 To use the API, you will need to pass the Authorization header with a user token
