@@ -1,4 +1,5 @@
 class Api::V1::BorrowingsController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_book_and_user, only: [:borrow]
 
   def borrow

@@ -84,6 +84,7 @@ GEM
     bootsnap (1.17.0)
       msgpack (~> 1.2)
     builder (3.2.4)
+    cancancan (3.5.0)
     capybara (3.39.2)
       addressable
       matrix
@@ -108,7 +109,6 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    devise-bootstrap-views (1.1.0)
     drb (2.2.0)
       ruby2_keywords
     error_highlight (0.6.0)
@@ -260,11 +260,11 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  cancancan
   capybara
   cssbundling-rails
   debug
   devise
-  devise-bootstrap-views
   error_highlight (>= 0.4.0)
   jbuilder
   jsbundling-rails
